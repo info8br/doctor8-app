@@ -1,0 +1,39 @@
+:root {
+  --suitecolor1:#176b89; /* verde */
+  --suitecolor2:#e15930;  /* laranja */
+--listras: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/bg/listras.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9iZy9saXN0cmFzLnBuZyIsImlhdCI6MTYzNTI1NzUxNiwiZXhwIjoxOTUwNjE3NTE2fQ.u6nSVq6e4tBXUJdxg5OrxnypGCXlIry3JQri6YM3e5g);
+  --logo: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/logo/doctor8.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9sb2dvL2RvY3RvcjgucG5nIiwiaWF0IjoxNjM1MjU3MjUwLCJleHAiOjE5NTA2MTcyNTB9.c165rF7XV3j0KeubW4kCW-84_ETHJw5hUCiy882W-vo);
+
+  --banner1: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/banner/banner-facaparte.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9iYW5uZXIvYmFubmVyLWZhY2FwYXJ0ZS5qcGciLCJpYXQiOjE2MzUyNDg1MTgsImV4cCI6MTk1MDYwODUxOH0.g-YFLeaLjqhS6_du_RLs3fyCxqgjLu5EI6EJUtHkYWQ);
+
+  
+  --banner2: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/banner/cover1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9iYW5uZXIvY292ZXIxLmpwZyIsImlhdCI6MTYzNTI1NzA1MCwiZXhwIjoxOTUwNjE3MDUwfQ.0m1yaEPlzM67cB5SKS3wVIEWRb1HrYWxZe7b1bJp_rQ);
+  --banner3: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/banner/cover2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9iYW5uZXIvY292ZXIyLmpwZyIsImlhdCI6MTYzNTI1NzA1OSwiZXhwIjoxOTUwNjE3MDU5fQ.YXcDtE2xqjfe1sIzN0pCmr2XGZT32U6Bk-ttZ0Tpj-0);
+  --banner4: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/banner/cover3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9iYW5uZXIvY292ZXIzLmpwZyIsImlhdCI6MTYzNTI1NzA2NywiZXhwIjoxOTUwNjE3MDY3fQ.IWa8rwcaCM43dQg-gNKzhxbaUN5DaLCyg0uhIlb7TyY);
+  
+
+  --section02banner01: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section02banner01.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMDJiYW5uZXIwMS5qcGciLCJpYXQiOjE2MzUyNTQ4NjYsImV4cCI6MTk1MDYxNDg2Nn0.9zbijcddCxMW5mnz5xLakTWhLfpdYCqqLQLbzQina3w);
+  
+  --section03figure01: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section03figure01.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMDNmaWd1cmUwMS5qcGciLCJpYXQiOjE2MzUyNTQ5MTMsImV4cCI6MTk1MDYxNDkxM30.wgCd4ylUZ3_ldhpUuLAxELTIaG8pQ_FMHu4EtNlwqBs);  
+
+  --section03figure02: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section03figure02.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMDNmaWd1cmUwMi5qcGciLCJpYXQiOjE2MzUyNTQ5NzEsImV4cCI6MTk1MDYxNDk3MX0.zvdQrO_E1XI_2T4PyP0dar1aMuQ0uVFKwAGdago_pXE);  
+  
+  --section04figure01: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section04figure01.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMDRmaWd1cmUwMS5wbmciLCJpYXQiOjE2MzUyNTQ5OTEsImV4cCI6MTk1MDYxNDk5MX0.ltbZ4WlgsCxW6qdR7jzPs7aq6HoUH-XPpCVh9Z8K58w);  
+  --section04figure02: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section04figure02.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMDRmaWd1cmUwMi5wbmciLCJpYXQiOjE2MzUyNTUwMDksImV4cCI6MTk1MDYxNTAwOX0.P0L-6CKy060rVC6zBxrjh4FAeqhHtmrs0_dBdQtmVu4); 
+  --section04figure03: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section04figure03.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMDRmaWd1cmUwMy5wbmciLCJpYXQiOjE2MzUyNTY0NjUsImV4cCI6MTk1MDYxNjQ2NX0.ciec0DUjPa8cwMSVp-aM48Z-2wCLkrdwLhpWxy4nqFA); 
+  
+  --section05banner01: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section05banner01.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMDViYW5uZXIwMS5qcGciLCJpYXQiOjE2MzUyNTY0NzgsImV4cCI6MTk1MDYxNjQ3OH0.4xlTjIvJAdebgtHzn6ZtittapBJ9oReRpOdDkVhUwNc); 
+  
+  --section06figure01: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section06figure01.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMDZmaWd1cmUwMS5qcGciLCJpYXQiOjE2MzUyNTY0ODksImV4cCI6MTk1MDYxNjQ4OX0.av01pRk4M0Fnh8mjJOsi3rXvzyE87wifEOiCaHSWrXI);
+  --section08banner01: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section08banner01.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMDhiYW5uZXIwMS5qcGciLCJpYXQiOjE2MzUyNTY1MDAsImV4cCI6MTk1MDYxNjUwMH0.7SGNsYe1cRqORrkhbXjXP-7khDN098N25WQCTxd5B9o);
+  
+  
+ 
+  --section11figure01: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section11figure01.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMTFmaWd1cmUwMS5wbmciLCJpYXQiOjE2MzUyNTY1MTIsImV4cCI6MTk1MDYxNjUxMn0.PnATyXbX4FVVK89j4PhZGAS6fFJrQs69bhGW0_7lCnQ); 
+  
+  --quemsomosfigure01: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/quemsomos-figure01.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9xdWVtc29tb3MtZmlndXJlMDEuanBnIiwiaWF0IjoxNjM1MjU0OTA5LCJleHAiOjE5NTA2MTQ5MDl9.z-2qzRKt6XesH5zAfNXPox2eDlHh0_RFC_YUTep8zpM);  
+  --quemsomosfigure02: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/quemsomos-figure02.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9xdWVtc29tb3MtZmlndXJlMDIuanBnIiwiaWF0IjoxNjM1MjU2NTM2LCJleHAiOjE5NTA2MTY1MzZ9.7FonHmqONPGCNat6jL9MfHD7cLvs2XkLLRyQDk_inQ0);  
+  
+  --doctor8grey: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/doctor8grey.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9kb2N0b3I4Z3JleS5wbmciLCJpYXQiOjE2MzUyNDg1MTUsImV4cCI6MTk1MDYwODUxNX0.Rx7vK5CooOeZi5dcKSEV_YtMZWwVmeNpMv4rn85W9Og); 
+  
+}

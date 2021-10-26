@@ -1,0 +1,53 @@
+[suites="1"] [body="1"]
+
+body[mobile="1"] pages section content box2 {
+  padding: 0;
+  margin: 30px 0 0 0;
+  width: 100%;
+}
+
+
+
+body[mobile="1"] pages section content box1 {
+  width: 340px;
+  position: absolute;
+  left: 0;
+  bottom: 75px;
+}
+body[mobile="1"][suites='1'] #section0 content {padding-right:20px;}
+
+body[mobile="1"][suites='1'] #section1{padding: 0 0 40px 0;display:none;}
+body[mobile="1"][suites='1'] #section1 figure[order="1"] {height:270px;width:100%;margin:0%;}
+
+body[mobile="1"][suites='1'] #section1 figure[order="2"]{display:none;}
+
+body[mobile="1"][suites='1'] #section1 figure[order="3"]{display:none;}
+
+body[mobile="1"][suites='1'] #section1 figure[order="4"]{display:none;}
+
+body[mobile="1"][suites='1'] pages #section2 {height:230px;border:0;}
+
+body[mobile="1"][suites='1'] pages #section3 p{width:unset;height:unset;margin:30px;}
+body[mobile="1"][suites='1'] pages #section3 figure{float:left;height:250px;margin:30px;background-color:#ccc;}
+
+body[mobile="1"][suites='1'] pages #section4 div{float:unset;margin:0 auto;}
+
+body[mobile="1"][suites='1'] pages #section5 p{margin:20px;width:unset;}
+
+body[mobile='1'][suites='1'] pages #section6 h2{margin: 10px 55px;text-align:center;width:unset;}
+body[mobile='1'][suites='1'] pages #section6 iframe{margin: 10px 55px;}
+body[mobile='1'][suites='1'] pages #section6 p{margin: 10px 55px;width: 370px;text-align: justify;}
+body[mobile='1'][suites='1'] pages #section6 figure{margin: 10px 55px;}
+body[mobile='1'][suites='1'] pages #section6 div{margin: 10px 55px;}
+body[mobile='1'][suites='1'] pages #section6 button{display:block;margin:0 auto;float:unset;margin-top:30px;}
+body[mobile="1"][suites='1'] pages #section8 {background-size: 110% auto; height:250px;}
+
+body[mobile="1"][suites='1'] pages #section9 plano{width:100%;margin:0 0 20px 0;}
+
+body[mobile="1"] pages #quemsomos content {margin: 0 20px;}
+body[mobile="1"] pages #quemsomos content div{width:100%;margin:0 0 30px 0;}
+body[mobile="1"] pages #quemsomos content figure{width:100%;}
+body[mobile="1"] pages #quemsomos content h2{width:100%;margin:20px 0 20px 0;}
+body[mobile="1"] pages #quemsomos content p{width:100%;}
+
+

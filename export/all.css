@@ -1,0 +1,775 @@
+/* /home/runner/doctor8/scripts/css/src/buttons.css */ 
+
+pages .bt1{
+  border-radius: 10px;
+
+  cursor: pointer;
+  display: block;  text-align: center;}
+
+/* /home/runner/doctor8/scripts/css/src/pages.css */ 
+
+body pages {margin:0 auto;max-width:960px;position:relative;}
+body[openlogin="1"] > grid {width: 100%;height: 100%;position: fixed;left: 0;top: 0;background-color: #00000099;z-index: 50;}
+body[logged="0"] {background-image:var(--listras);}
+
+
+h1 {color:#176b89;}
+
+/* /home/runner/doctor8/scripts/css/src/pagesResponsive.css */ 
+
+[suites="1"] [body="1"]
+
+body[mobile="1"] pages section content box2 {
+  padding: 0;
+  margin: 30px 0 0 0;
+  width: 100%;
+}
+
+
+
+body[mobile="1"] pages section content box1 {
+  width: 340px;
+  position: absolute;
+  left: 0;
+  bottom: 75px;
+}
+body[mobile="1"][suites='1'] #section0 content {padding-right:20px;}
+
+body[mobile="1"][suites='1'] #section1{padding: 0 0 40px 0;display:none;}
+body[mobile="1"][suites='1'] #section1 figure[order="1"] {height:270px;width:100%;margin:0%;}
+
+body[mobile="1"][suites='1'] #section1 figure[order="2"]{display:none;}
+
+body[mobile="1"][suites='1'] #section1 figure[order="3"]{display:none;}
+
+body[mobile="1"][suites='1'] #section1 figure[order="4"]{display:none;}
+
+body[mobile="1"][suites='1'] pages #section2 {height:230px;border:0;}
+
+body[mobile="1"][suites='1'] pages #section3 p{width:unset;height:unset;margin:30px;}
+body[mobile="1"][suites='1'] pages #section3 figure{float:left;height:250px;margin:30px;background-color:#ccc;}
+
+body[mobile="1"][suites='1'] pages #section4 div{float:unset;margin:0 auto;}
+
+body[mobile="1"][suites='1'] pages #section5 p{margin:20px;width:unset;}
+
+body[mobile='1'][suites='1'] pages #section6 h2{margin: 10px 55px;text-align:center;width:unset;}
+body[mobile='1'][suites='1'] pages #section6 iframe{margin: 10px 55px;}
+body[mobile='1'][suites='1'] pages #section6 p{margin: 10px 55px;width: 370px;text-align: justify;}
+body[mobile='1'][suites='1'] pages #section6 figure{margin: 10px 55px;}
+body[mobile='1'][suites='1'] pages #section6 div{margin: 10px 55px;}
+body[mobile='1'][suites='1'] pages #section6 button{display:block;margin:0 auto;float:unset;margin-top:30px;}
+body[mobile="1"][suites='1'] pages #section8 {background-size: 110% auto; height:250px;}
+
+body[mobile="1"][suites='1'] pages #section9 plano{width:100%;margin:0 0 20px 0;}
+
+body[mobile="1"] pages #quemsomos content {margin: 0 20px;}
+body[mobile="1"] pages #quemsomos content div{width:100%;margin:0 0 30px 0;}
+body[mobile="1"] pages #quemsomos content figure{width:100%;}
+body[mobile="1"] pages #quemsomos content h2{width:100%;margin:20px 0 20px 0;}
+body[mobile="1"] pages #quemsomos content p{width:100%;}
+
+
+
+
+/* /home/runner/doctor8/scripts/css/src/pagesSection.css */ 
+
+body[logged="0"] pages {
+  display: block;
+}
+
+pages {
+  display: none;
+}
+
+pages section {
+  background-color: #fff;
+  background-position: center;
+  float: left;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+pages section:nth-child(2) h1 {
+  display: none;
+}
+
+pages section content h1 {
+  padding:15px;
+  font-size: 300%;
+  margin: 0 auto;
+  width: min-content;
+  border-bottom: 3px solid var(--suitecolor2);
+  white-space: nowrap;
+  margin-bottom:50px;
+  font-style:italic;
+  font-weight:normal;
+}
+
+pages section content p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+pages section#section-home {
+  height: 500px;
+}
+
+pages section:last-child {
+  padding-bottom: 200px;
+}
+
+pages p a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* /home/runner/doctor8/scripts/css/src/pagesSectionBox.css */ 
+
+pages section content box1 {padding:20px;border-radius:10px;background: rgba(2, 7, 27, 0.85);color:#fff;width:300px;position:absolute;left:30px;bottom:30px;}
+
+pages section content bt1 {cursor:pointer;padding:5px 10px;border-radius:5px;background-color: #3899c4;float:left;color:#fff;}
+pages section content box1 p{margin-bottom:10px;}
+pages section content box1 h2{margin-bottom:10px;}
+
+pages section content bt1:hover {box-shadow: 0 0 7px 3px #fff;}
+
+pages section content box2 {margin-top:30px;border-radius:10px;background: #fff;color:#fff;width:300px;float:left;margin-right:30px;box-shadow: 0 3px 30px rgba(64,124,191,0.2);transition: all 0.3s ease 0s;overflow:auto;}
+pages section content box2 bt1 {margin:0 20px 20px 20px;cursor:pointer;padding:5px 10px;border-radius:5px;background-color: #3899c4;float:right;}
+pages section content box2 p{padding:0 20px 20px 20px;color:#999;background-color:#fff}
+pages section content box2 h2{padding:20px;color:#444;background-color:#fff}
+
+pages section content box2:hover{box-shadow: 0 3px 50px rgba(64,124,191,0.2);margin-top:0;}
+
+pages section content box2:last-child{margin-right:0;}
+
+pages section#section-outros-projetos content box2{}
+
+pages section#section-outros-projetos content box2 figure{background-size: 100% auto;background-repeat: no-repeat;width: 100%;
+    height: 200px;
+    background-size: cover;}
+
+/* /home/runner/doctor8/scripts/css/src/pagesTop.css */ 
+
+pages top{background-color: #fafafa;width:100%;float:left;height:80px;}
+pages top logo {height: 60px;width: 160px;background-size: cover;background-repeat: no-repeat;background-position:center;float:left;margin: 10px;}
+pages top nav{display:none;float:right;border-top: 1px solid #ccc;background-color:#fff;width:100%;}
+pages top nav a{float:right;color:#444;margin: 5px 25px 5px 0px;font-size: 90%;padding: 5px 25px 5px 0;}
+
+pages top bt1 {margin:20px 20px 0 0;cursor:pointer;padding:10px 15px;border-radius:3px;background-color: #3899c4;float:right;color:#fff;}
+
+/* /home/runner/doctor8/scripts/css/src/section-quemsomos.css */ 
+
+pages #bannerquemsomos {
+  background-attachment: initial;
+  height: 300px;
+  border-bottom: 10px solid #176b89;
+  background-image: url(/img/quemsomos.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+pages #quemsomos content {
+  margin: 0 70px;
+}
+
+pages #quemsomos button {
+  cursor: pointer;
+}
+
+pages #quemsomos p {
+  line-height: 1.5;
+  float: left;
+
+}
+pages #quemsomos div {float: left;width: 100%;margin-bottom:70px;}
+pages #quemsomos div figure {border-bottom:5px solid var(--suitecolor1);}
+
+pages #quemsomos div:nth-child(3) figure {background-image: var(--quemsomosfigure01);background-size: cover;width: 380px;float: right;height: 240px;}
+pages #quemsomos div:nth-child(3) h2 {width: 380px;float: left;margin-top: 30px;}
+pages #quemsomos div:nth-child(3) p {width: 380px;float: left;}
+
+
+pages #quemsomos div:nth-child(4) figure {background-image: var(--quemsomosfigure02);background-size: cover;width: 380px;float: left;height: 240px;}
+pages #quemsomos div:nth-child(4) h2 {width: 380px;float: right;margin-top: 30px;}
+pages #quemsomos div:nth-child(4) p {width: 380px;float: right;}
+
+
+pages #quemsomos div:nth-child(5) h2{margin:0 70px;}
+
+pages #quemsomos button { border-radius: 10px; height: 40px;width: 300px;
+  color: #ffffff;
+  background-color: #e15930;
+  margin: 50px auto;
+  display: block;
+  
+}
+
+pages #quemsomos h2 {text-align: center;margin-bottom: 10px;font-weight: normal;}
+
+/* /home/runner/doctor8/scripts/css/src/section00.css */ 
+
+body[suites='1'] pages #section0{border-top: 1px solid #ccc;padding:10px 0;}
+body[suites='1'] pages #section0 a{float:right;margin-left:20px;}
+
+/* /home/runner/doctor8/scripts/css/src/section01.css */ 
+
+body[suites='1'] pages #section1 img{
+background-color:#ccc;
+content:var(--banner1);
+
+background-size:cover;
+background-position:center;
+border-bottom:5px solid #de5c35;
+float:left;
+
+margin:0;
+border:0;
+width:100%;
+}
+
+body[suites='1'] pages #section1{
+padding:40px 0 0 0;
+}
+
+body[suites='1'] pages #section1 content {
+  margin: 0 auto;
+  max-width: none;
+}
+
+body[suites='1'] pages #section1 figure[order="2"]{
+background-color:#ccc;
+background-image:var(--banner2);
+background-size:cover;border-bottom:5px solid #176b89;float:right;height:112px;margin:0 0 15px 0;width:200px;
+background-color:#ccc;
+background-position: 100%;
+}
+
+body[suites='1'] pages #section1 figure[order="3"]{
+background-color:#ccc;
+background-image:var(--banner3);
+background-position: 100%;
+background-size:cover;border-bottom:5px solid #176b89;float:right;height:112px;margin:0 0 15px 0;width:200px;
+background-color:#ccc;
+}
+
+body[suites='1'] pages #section1 figure[order="4"]{
+background-color:#ccc;
+background-image:var(--banner4);
+background-position:100%;  
+background-size:cover;border-bottom:5px solid #176b89;float:right;height:112px;width:200px;
+background-color:#ccc;
+}
+
+/* /home/runner/doctor8/scripts/css/src/section02.css */ 
+
+body[suites='1'] pages #section2 {
+  background-attachment: initial;
+  height: 300px;
+  border-bottom: 10px solid #176b89;
+  background-image: var(--section02banner01);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body[suites='1'] pages #section2 figure {
+  height: 450px;
+  float: left;
+  width: 100%;
+}
+
+/* /home/runner/doctor8/scripts/css/src/section03.css */ 
+
+body[suites='1'] pages #section3 button {
+  cursor: pointer;
+}
+
+body[suites='1'] pages #section3 p {
+  line-height: 1.5;
+  margin: 20px;
+  width: 420px;
+  float: left;
+  text-align:justify;
+}
+
+body[suites='1'] pages #section3 figure {
+  background-size: cover;
+  width: 420px;
+  float: left;
+  height: 340px;
+  margin: 20px;
+  background-color: #ccc;
+}
+
+body[suites='1'] pages #section3 div:nth-child(1) figure {
+  background-image:var(--section03figure01);
+}
+
+body[suites='1'] pages #section3 div:nth-child(2) figure {
+  background-image:var(--section03figure02);
+}
+
+body[suites='1'] pages #section3 button {
+  border-radius: 10px;
+  height: 40px;
+  width: 300px;
+  color: #ffffff;
+  background-color: #e15930;
+  margin: 0 auto;
+  display: block;
+}
+
+/* /home/runner/doctor8/scripts/css/src/section04.css */ 
+
+body[suites='1'] pages #section4 {
+  background-color: #176b89;
+}
+
+body[suites='1'] pages #section4 div {
+  width: 300px;
+  height: 400px;
+  float: left;
+}
+
+body[suites='1'] pages #section4 figure {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 20px 50px 0 50px;
+  background-position: center;
+  background-size: cover;
+}
+
+body[suites='1'] pages #section4 h2 {
+  float: left;
+  text-align: center;
+  width: 200px;
+  color: #fff;
+  font-style: italic;
+  margin: 0 50px 0 50px;
+}
+
+body[suites='1'] pages #section4 span {
+  width: 300px;
+  float: left;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+body[suites='1'] pages #section4 p {
+  width: 240px;
+  float: left;
+  text-align: center;
+  color: #fff;
+  margin: 10px 30px 0 30px;
+}
+
+body[suites='1'] pages #section4 button {
+  width: 240px;
+  height: 50px;
+  color: #fff;
+  margin: 0 auto;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+
+body[suites='1'] pages #section4 div:nth-child(1) figure {
+  background-image:var(--section04figure01);
+}
+
+body[suites='1'] pages #section4 div:nth-child(2) figure {
+  background-image:var(--section04figure02);
+}
+
+body[suites='1'] pages #section4 div:nth-child(3) figure {
+  background-image:var(--section04figure03);
+}
+
+/* /home/runner/doctor8/scripts/css/src/section05.css */ 
+
+body[suites='1'] pages #section5 {
+  border-bottom: 10px solid #176b89;
+  background-size: cover;
+  background-position: center;
+  background-image: var(--section05banner01);
+}
+
+body[suites='1'] pages #section5 h2 {
+  color: #fff;
+  font-style: italic;
+  font-style: italic;
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: unset;
+  font-size: 21pt;
+}
+
+body[suites='1'] pages #section5 p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
+
+body[suites='1'] pages #section5 button {
+  display: none;
+  background-color: #176b89;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  color: #fff;
+  margin: 20px auto;
+  display: block;
+  cursor: pointer;
+}
+
+/* /home/runner/doctor8/scripts/css/src/section06.css */ 
+
+body[suites='1'] pages #section6 h2{
+  float: left;
+  text-align: right;
+  width: 370px;
+  color: #176b89;
+  font-style: italic;
+  font-size: 14pt;
+  margin: 0 0 0 70px;
+  font-weight: normal;
+}
+
+body[suites='1'] pages #section6 p{
+  float: left;
+  width: 370px;
+  margin: 0 0 30px 70px;
+  text-align: right;
+}
+
+body[suites='1'] pages #section6 iframe{
+  float: right;
+  width: 370px;
+  height: 190px;
+  margin: 0 70px 30px 0;
+}
+body[suites='1'] pages #section6 video{
+  float: right;
+  width: 370px;
+  height: 190px;
+  margin: 0 70px 30px 0;
+}
+body[suites='1'] pages #section6 figure{
+  float: left;
+  width: 370px;
+  height: 370px;
+  background-image:var(--section06figure01);
+  margin: 0 0 0 70px;
+  background-size:cover;
+}
+
+body[suites='1'] pages #section6 div{
+  float: right;
+  width: 370px;
+  margin: 0 70px 0 0;
+}
+
+body[suites='1'] pages #section6 button{
+  float: right;
+  width: 370px;
+  margin: 30px 70px 0 0;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #176b89;
+  color: #fff;
+  cursor:pointer;
+}
+
+
+/* /home/runner/doctor8/scripts/css/src/section07.css */ 
+
+body[suites='1'] pages #section7 {display:none;background-attachment: initial;
+  height:400px;
+  background-image:url(https://firebasestorage.googleapis.com/v0/b/doctor8-edbb2.appspot.com/o/pages%2Fsection7%2Fsection7banner1.jpg?alt=media&token=4fcf7e6a-4c03-4a4c-bf7b-9cc6e852e132);
+  background-position: center center;
+  background-repeat:no-repeat;background-size:cover;}
+
+body[suites='1'] pages #section7 h2 {text-decoration: underline;text-decoration-color: #e15930;float:left;color:#176b89;font-style:italic;font-size:20pt;}
+body[suites='1'] pages #section7 p {}
+body[suites='1'] pages #section7 div {width:300px;float:left;}
+
+/* /home/runner/doctor8/scripts/css/src/section08.css */ 
+
+body[suites='1'] pages #section8 {
+  background-attachment: initial;
+  height:400px;background-image:var(--section08banner01);
+  background-position: center center;background-repeat:no-repeat;background-size:cover;}
+
+body[suites='1'] pages #section8 div{cursor:pointer;width:100%;height:100%;float:left;}
+
+
+/* /home/runner/doctor8/scripts/css/src/section09.css */ 
+
+pages #section9 p {
+  color: #8dc641;
+  width: 100%;
+  text-align: center;
+  font-size: 120%;
+  font-weight: bold;
+  margin-top: 50px;
+  float: left;
+}
+
+pages #section9 a {
+  color: #8dc641;
+}
+
+pages #section9 plano {
+  width: 300px;
+  float: left;
+  margin-bottom: 20px;
+
+  padding-bottom: 70px;
+  position: relative;
+}
+
+pages #section9 plano:nth-child(2){
+
+  margin-left:150px;
+     margin-right: 10px;
+}
+ pages #section9 plano:nth-child(3){
+ 
+} 
+ pages #section9 plano:nth-child(4){
+    margin-right: 10px;
+} 
+ pages #section9 plano:nth-child(5){
+   margin-right: 10px;
+
+} 
+
+#section9 plano.free div:nth-child(1) label:nth-child(1) {
+  background-color: var(--suitecolor1);
+}
+
+#section9 plano.pago div:nth-child(1) label:nth-child(1) {
+  background-color: var(--suitecolor2);
+}
+
+#section9 plano.free div:nth-child(1) label:nth-child(3) {
+  color: var(--suitecolor2);
+}
+
+#section9 plano.pago div:nth-child(1) label:nth-child(3) {
+  color: var(--suitecolor1);
+}
+
+pages #section9 plano div:nth-child(1) label:nth-child(1) {
+  color: #fff;
+  padding: 10px 0;
+}
+
+pages #section9 plano div:nth-child(1) label {
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+
+pages #section9 plano div:nth-child(1) label:nth-child(2) {
+  color: #000;
+  padding: 10px 0;
+}
+
+pages #section9 plano div:nth-child(1) label:nth-child(3) {
+  color: var(--suitecolor2);
+  padding: 0 0 10px 0;
+  font-size: 120%;
+}
+
+pages #section9 plano div:nth-child(2) label {
+  float: left;
+  width: 70%;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+pages #section9 plano div:nth-child(2) valor {
+  width: 30%;
+  float: left;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+pages #section9 plano div:nth-child(2) valor span {
+  font-size: 70%;
+  font-style: italic;
+}
+
+pages #section9 plano div:nth-child(2) valor icon {
+  font-size: 140%;
+}
+
+pages #section9 .icon-checkmark {
+  color: #48b848;
+}
+
+pages #section9 .icon-minus {
+  color: #ff4646;
+}
+
+pages #section9 .bt1 {
+  color: var(--suitecolor2);
+  background-color: transparent;
+  border: 2px solid var(--suitecolor2);
+  padding: 5px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* /home/runner/doctor8/scripts/css/src/section11.css */ 
+
+body[suites='1'] pages #section11 {
+
+  background-attachment: initial;
+  background-image:var(--section11figure01);
+  background-position: center center;background-repeat:no-repeat;background-size:100%;height: 450px;}
+
+
+/* /home/runner/doctor8/scripts/css/src/section12.css */ 
+
+
+body[suites='1'] pages #section12 {background-attachment: initial;background-image:url(https://firebasestorage.googleapis.com/v0/b/doctor8-edbb2.appspot.com/o/pages%2Fsection12%2Fsection12banner1.jpg?alt=media&token=89e00501-eb96-4698-a3a6-3c735d8ba412);background-position: center center;background-repeat:no-repeat;background-size:100%;height: 180px;}
+
+
+/* /home/runner/doctor8/scripts/css/src/section13.css */ 
+
+body[suites='1'] pages #section13 {background-color:#3c3d42;}
+
+body[suites='1'] pages #section13 figure{
+  background-image:var(--doctor8grey);
+  float: left;
+    width: 150px;
+    height: 50px;
+  background-size:cover;
+}
+
+h2#VM3NvTFa8q1ZELmReTiV{
+  float:block;
+  font-family:Arial;
+  color:white;
+  text-shadow:1px 1px 1px rgba(0,0,0.6);
+  padding-left:200px;
+  
+}
+a#M8FN9rWhkhhECOrRZPrv{
+  float:left;
+  font-family:Arial;
+  color:white;
+  text-shadow:1px 1px 1px rgba(0,0,0.6);
+  padding-left:50px;
+  border-bottom: 1px;
+}
+a#gYD3hGXS2Q0SFKRmuSVP{
+  font-family:Arial;
+  color:white;
+  text-shadow:1px 1px 1px rgba(0,0,0.6);
+  padding-left: 60px;
+}
+a#xv2B7WcnxVsEhdMoad1Q{
+  float:left;
+  font-family:Arial;
+  color:white;
+  text-shadow:1px 1px 1px rgba(0,0,0.6);
+  padding-left:60px;
+}
+
+
+/* /home/runner/doctor8/scripts/css/src/suite1.css */ 
+
+body[suites='1'] pages top logo {
+background-image:var(--logo);
+  background-size: 100% auto;
+}
+
+body[suites='1'][logged='1'][modules=''] {
+  background-image: url('/img/bg/doctor8.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+body[suites='1'][areas='100'][modules=''] modal {
+  display: block;
+}
+
+body[suites='1'][areas='100'] #divespecialidades {
+  display: none;
+}
+
+body[suites='1'] pages content {
+  margin: 0 auto;
+  max-width: 920px;
+  display: block;
+  position: relative;
+}
+
+body[suites='1'] pages section {
+  padding: 40px 0;
+  background-color: #fff;
+  background-position: center;
+  float: left;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+/* /home/runner/doctor8/scripts/css/src/vars.css */ 
+
+:root {
+  --suitecolor1:#176b89; /* verde */
+  --suitecolor2:#e15930;  /* laranja */
+--listras: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/bg/listras.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9iZy9saXN0cmFzLnBuZyIsImlhdCI6MTYzNTI1NzUxNiwiZXhwIjoxOTUwNjE3NTE2fQ.u6nSVq6e4tBXUJdxg5OrxnypGCXlIry3JQri6YM3e5g);
+  --logo: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/logo/doctor8.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9sb2dvL2RvY3RvcjgucG5nIiwiaWF0IjoxNjM1MjU3MjUwLCJleHAiOjE5NTA2MTcyNTB9.c165rF7XV3j0KeubW4kCW-84_ETHJw5hUCiy882W-vo);
+
+  --banner1: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/banner/banner-facaparte.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9iYW5uZXIvYmFubmVyLWZhY2FwYXJ0ZS5qcGciLCJpYXQiOjE2MzUyNDg1MTgsImV4cCI6MTk1MDYwODUxOH0.g-YFLeaLjqhS6_du_RLs3fyCxqgjLu5EI6EJUtHkYWQ);
+
+  
+  --banner2: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/banner/cover1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9iYW5uZXIvY292ZXIxLmpwZyIsImlhdCI6MTYzNTI1NzA1MCwiZXhwIjoxOTUwNjE3MDUwfQ.0m1yaEPlzM67cB5SKS3wVIEWRb1HrYWxZe7b1bJp_rQ);
+  --banner3: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/banner/cover2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9iYW5uZXIvY292ZXIyLmpwZyIsImlhdCI6MTYzNTI1NzA1OSwiZXhwIjoxOTUwNjE3MDU5fQ.YXcDtE2xqjfe1sIzN0pCmr2XGZT32U6Bk-ttZ0Tpj-0);
+  --banner4: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/banner/cover3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9iYW5uZXIvY292ZXIzLmpwZyIsImlhdCI6MTYzNTI1NzA2NywiZXhwIjoxOTUwNjE3MDY3fQ.IWa8rwcaCM43dQg-gNKzhxbaUN5DaLCyg0uhIlb7TyY);
+  
+
+  --section02banner01: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section02banner01.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMDJiYW5uZXIwMS5qcGciLCJpYXQiOjE2MzUyNTQ4NjYsImV4cCI6MTk1MDYxNDg2Nn0.9zbijcddCxMW5mnz5xLakTWhLfpdYCqqLQLbzQina3w);
+  
+  --section03figure01: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section03figure01.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMDNmaWd1cmUwMS5qcGciLCJpYXQiOjE2MzUyNTQ5MTMsImV4cCI6MTk1MDYxNDkxM30.wgCd4ylUZ3_ldhpUuLAxELTIaG8pQ_FMHu4EtNlwqBs);  
+
+  --section03figure02: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section03figure02.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMDNmaWd1cmUwMi5qcGciLCJpYXQiOjE2MzUyNTQ5NzEsImV4cCI6MTk1MDYxNDk3MX0.zvdQrO_E1XI_2T4PyP0dar1aMuQ0uVFKwAGdago_pXE);  
+  
+  --section04figure01: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section04figure01.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMDRmaWd1cmUwMS5wbmciLCJpYXQiOjE2MzUyNTQ5OTEsImV4cCI6MTk1MDYxNDk5MX0.ltbZ4WlgsCxW6qdR7jzPs7aq6HoUH-XPpCVh9Z8K58w);  
+  --section04figure02: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section04figure02.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMDRmaWd1cmUwMi5wbmciLCJpYXQiOjE2MzUyNTUwMDksImV4cCI6MTk1MDYxNTAwOX0.P0L-6CKy060rVC6zBxrjh4FAeqhHtmrs0_dBdQtmVu4); 
+  --section04figure03: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section04figure03.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMDRmaWd1cmUwMy5wbmciLCJpYXQiOjE2MzUyNTY0NjUsImV4cCI6MTk1MDYxNjQ2NX0.ciec0DUjPa8cwMSVp-aM48Z-2wCLkrdwLhpWxy4nqFA); 
+  
+  --section05banner01: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section05banner01.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMDViYW5uZXIwMS5qcGciLCJpYXQiOjE2MzUyNTY0NzgsImV4cCI6MTk1MDYxNjQ3OH0.4xlTjIvJAdebgtHzn6ZtittapBJ9oReRpOdDkVhUwNc); 
+  
+  --section06figure01: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section06figure01.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMDZmaWd1cmUwMS5qcGciLCJpYXQiOjE2MzUyNTY0ODksImV4cCI6MTk1MDYxNjQ4OX0.av01pRk4M0Fnh8mjJOsi3rXvzyE87wifEOiCaHSWrXI);
+  --section08banner01: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section08banner01.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMDhiYW5uZXIwMS5qcGciLCJpYXQiOjE2MzUyNTY1MDAsImV4cCI6MTk1MDYxNjUwMH0.7SGNsYe1cRqORrkhbXjXP-7khDN098N25WQCTxd5B9o);
+  
+  
+ 
+  --section11figure01: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/section11figure01.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9zZWN0aW9uMTFmaWd1cmUwMS5wbmciLCJpYXQiOjE2MzUyNTY1MTIsImV4cCI6MTk1MDYxNjUxMn0.PnATyXbX4FVVK89j4PhZGAS6fFJrQs69bhGW0_7lCnQ); 
+  
+  --quemsomosfigure01: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/quemsomos-figure01.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9xdWVtc29tb3MtZmlndXJlMDEuanBnIiwiaWF0IjoxNjM1MjU0OTA5LCJleHAiOjE5NTA2MTQ5MDl9.z-2qzRKt6XesH5zAfNXPox2eDlHh0_RFC_YUTep8zpM);  
+  --quemsomosfigure02: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/quemsomos-figure02.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9xdWVtc29tb3MtZmlndXJlMDIuanBnIiwiaWF0IjoxNjM1MjU2NTM2LCJleHAiOjE5NTA2MTY1MzZ9.7FonHmqONPGCNat6jL9MfHD7cLvs2XkLLRyQDk_inQ0);  
+  
+  --doctor8grey: url(https://bhxafhsowweifsrnyfaa.supabase.in/storage/v1/object/sign/doctor8/img/doctor8grey.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2N0b3I4L2ltZy9kb2N0b3I4Z3JleS5wbmciLCJpYXQiOjE2MzUyNDg1MTUsImV4cCI6MTk1MDYwODUxNX0.Rx7vK5CooOeZi5dcKSEV_YtMZWwVmeNpMv4rn85W9Og); 
+  
+}
+
+

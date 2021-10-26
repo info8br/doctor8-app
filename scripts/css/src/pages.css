@@ -1,0 +1,6 @@
+body pages {margin:0 auto;max-width:960px;position:relative;}
+body[openlogin="1"] > grid {width: 100%;height: 100%;position: fixed;left: 0;top: 0;background-color: #00000099;z-index: 50;}
+body[logged="0"] {background-image:var(--listras);}
+
+
+h1 {color:#176b89;}

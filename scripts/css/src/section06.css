@@ -1,0 +1,55 @@
+body[suites='1'] pages #section6 h2{
+  float: left;
+  text-align: right;
+  width: 370px;
+  color: #176b89;
+  font-style: italic;
+  font-size: 14pt;
+  margin: 0 0 0 70px;
+  font-weight: normal;
+}
+
+body[suites='1'] pages #section6 p{
+  float: left;
+  width: 370px;
+  margin: 0 0 30px 70px;
+  text-align: right;
+}
+
+body[suites='1'] pages #section6 iframe{
+  float: right;
+  width: 370px;
+  height: 190px;
+  margin: 0 70px 30px 0;
+}
+body[suites='1'] pages #section6 video{
+  float: right;
+  width: 370px;
+  height: 190px;
+  margin: 0 70px 30px 0;
+}
+body[suites='1'] pages #section6 figure{
+  float: left;
+  width: 370px;
+  height: 370px;
+  background-image:var(--section06figure01);
+  margin: 0 0 0 70px;
+  background-size:cover;
+}
+
+body[suites='1'] pages #section6 div{
+  float: right;
+  width: 370px;
+  margin: 0 70px 0 0;
+}
+
+body[suites='1'] pages #section6 button{
+  float: right;
+  width: 370px;
+  margin: 30px 70px 0 0;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #176b89;
+  color: #fff;
+  cursor:pointer;
+}

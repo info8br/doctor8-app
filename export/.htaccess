@@ -1,0 +1,63 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+#php_value allow_url_fopen on
+#php_value allow_url_include 1
+
+RewriteCond %{HTTP_HOST} ^www\.doctor8\.com\.br$ [NC]
+RewriteRule ^(.*)$ https://doctor8.com.br/$1 [R=301,L]
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#Redirect 301 / http://stockreleases-com-br.umbler.net/releases/
+
+## Database ##
+
+	RewriteRule ^database$							/database/index.php	[NC]
+
+## Google ##
+
+	#RewriteRule ^googlea2b0361fdc390012.html$ 		/site/webmastertools/googlea2b0361fdc390012.html	[NC]
+	#RewriteRule ^robots.txt$ 						/site/webmastertools/robots.txt	[NC]
+
+##
+	RewriteRule ^quero-ajuda$ 						/landingpages/queroajuda/index.html	[NC]
+	RewriteRule ^quero-ajuda2$ 						/landingpages/queroajuda/index.html	[NC]
+	RewriteRule ^queroajuda$ 						/landingpages/queroajuda/index.html	[NC]
+##ssl
+
+#http://www.teste.past8.com.br/.well-known/acme-challenge/
+
+##
+
+
+ErrorDocument 400 ?erro=400
+ErrorDocument 401 ?erro=401
+ErrorDocument 403 ?erro=403
+ErrorDocument 404 ?erro=404
+ErrorDocument 500 ?erro=500
+
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript
+
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+Header append Vary User-Agent
+
+# 1 ANO
+<FilesMatch "\.(ico|pdf|flv)$">
+Header set Cache-Control "max-age=1800, public"
+</FilesMatch>
+# 1 SEMANA
+<FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+Header set Cache-Control "max-age=1800, public"
+</FilesMatch>
+# 2 DIAS
+<FilesMatch "\.(xml|txt|css|js)$">
+Header set Cache-Control "max-age=1800, proxy-revalidate"
+</FilesMatch>
+# 1 MINUTO
+<FilesMatch "\.(html|htm|php)$">
+Header set Cache-Control "max-age=60, private, proxy-revalidate"
+</FilesMatch>

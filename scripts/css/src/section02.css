@@ -1,0 +1,14 @@
+body[suites='1'] pages #section2 {
+  background-attachment: initial;
+  height: 300px;
+  border-bottom: 10px solid #176b89;
+  background-image: var(--section02banner01);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body[suites='1'] pages #section2 figure {
+  height: 450px;
+  float: left;
+  width: 100%;
+}

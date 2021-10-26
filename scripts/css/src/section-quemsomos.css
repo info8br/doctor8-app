@@ -1,0 +1,47 @@
+pages #bannerquemsomos {
+  background-attachment: initial;
+  height: 300px;
+  border-bottom: 10px solid #176b89;
+  background-image: url(/img/quemsomos.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+pages #quemsomos content {
+  margin: 0 70px;
+}
+
+pages #quemsomos button {
+  cursor: pointer;
+}
+
+pages #quemsomos p {
+  line-height: 1.5;
+  float: left;
+
+}
+pages #quemsomos div {float: left;width: 100%;margin-bottom:70px;}
+pages #quemsomos div figure {border-bottom:5px solid var(--suitecolor1);}
+
+pages #quemsomos div:nth-child(3) figure {background-image: var(--quemsomosfigure01);background-size: cover;width: 380px;float: right;height: 240px;}
+pages #quemsomos div:nth-child(3) h2 {width: 380px;float: left;margin-top: 30px;}
+pages #quemsomos div:nth-child(3) p {width: 380px;float: left;}
+
+
+pages #quemsomos div:nth-child(4) figure {background-image: var(--quemsomosfigure02);background-size: cover;width: 380px;float: left;height: 240px;}
+pages #quemsomos div:nth-child(4) h2 {width: 380px;float: right;margin-top: 30px;}
+pages #quemsomos div:nth-child(4) p {width: 380px;float: right;}
+
+
+pages #quemsomos div:nth-child(5) h2{margin:0 70px;}
+
+pages #quemsomos button { border-radius: 10px; height: 40px;width: 300px;
+  color: #ffffff;
+  background-color: #e15930;
+  margin: 50px auto;
+  display: block;
+  
+}
+
+pages #quemsomos h2 {text-align: center;margin-bottom: 10px;font-weight: normal;}

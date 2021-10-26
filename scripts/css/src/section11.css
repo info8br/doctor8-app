@@ -1,0 +1,5 @@
+body[suites='1'] pages #section11 {
+
+  background-attachment: initial;
+  background-image:var(--section11figure01);
+  background-position: center center;background-repeat:no-repeat;background-size:100%;height: 450px;}

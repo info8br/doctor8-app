@@ -1,0 +1,39 @@
+body[suites='1'] pages #section13 {background-color:#3c3d42;}
+
+body[suites='1'] pages #section13 figure{
+  background-image:var(--doctor8grey);
+  float: left;
+    width: 150px;
+    height: 50px;
+  background-size:cover;
+}
+
+h2#VM3NvTFa8q1ZELmReTiV{
+  float:block;
+  font-family:Arial;
+  color:white;
+  text-shadow:1px 1px 1px rgba(0,0,0.6);
+  padding-left:200px;
+  
+}
+a#M8FN9rWhkhhECOrRZPrv{
+  float:left;
+  font-family:Arial;
+  color:white;
+  text-shadow:1px 1px 1px rgba(0,0,0.6);
+  padding-left:50px;
+  border-bottom: 1px;
+}
+a#gYD3hGXS2Q0SFKRmuSVP{
+  font-family:Arial;
+  color:white;
+  text-shadow:1px 1px 1px rgba(0,0,0.6);
+  padding-left: 60px;
+}
+a#xv2B7WcnxVsEhdMoad1Q{
+  float:left;
+  font-family:Arial;
+  color:white;
+  text-shadow:1px 1px 1px rgba(0,0,0.6);
+  padding-left:60px;
+}

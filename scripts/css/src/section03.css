@@ -1,0 +1,38 @@
+body[suites='1'] pages #section3 button {
+  cursor: pointer;
+}
+
+body[suites='1'] pages #section3 p {
+  line-height: 1.5;
+  margin: 20px;
+  width: 420px;
+  float: left;
+  text-align:justify;
+}
+
+body[suites='1'] pages #section3 figure {
+  background-size: cover;
+  width: 420px;
+  float: left;
+  height: 340px;
+  margin: 20px;
+  background-color: #ccc;
+}
+
+body[suites='1'] pages #section3 div:nth-child(1) figure {
+  background-image:var(--section03figure01);
+}
+
+body[suites='1'] pages #section3 div:nth-child(2) figure {
+  background-image:var(--section03figure02);
+}
+
+body[suites='1'] pages #section3 button {
+  border-radius: 10px;
+  height: 40px;
+  width: 300px;
+  color: #ffffff;
+  background-color: #e15930;
+  margin: 0 auto;
+  display: block;
+}
