@@ -1,6 +1,6 @@
 const express = require('express');
-const cors = require('cors');
-const app = express();
+const cors    = require('cors');
+const app     = express();
 
 console.log(__dirname);
 
@@ -12,13 +12,10 @@ app.use(cors());
 
 // index.js
 
-
-
 app.get('/', (req, res) => {
 
-
   res.setHeader('Access-Control-Allow-Origin', '*');
-  res.sendFile('/home/runner/doctor8/export/index.html');
+  res.sendFile(process.env['customdir']+'/export/index.html');
 
 });
 
