@@ -1,6 +1,0 @@
-pages top{background-color: #fafafa;width:100%;float:left;height:80px;}
-pages top logo {height: 60px;width: 160px;background-size: cover;background-repeat: no-repeat;background-position:center;float:left;margin: 10px;}
-pages top nav{display:none;float:right;border-top: 1px solid #ccc;background-color:#fff;width:100%;}
-pages top nav a{float:right;color:#444;margin: 5px 25px 5px 0px;font-size: 90%;padding: 5px 25px 5px 0;}
-
-pages top bt1 {margin:20px 20px 0 0;cursor:pointer;padding:10px 15px;border-radius:3px;background-color: #3899c4;float:right;color:#fff;}

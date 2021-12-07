@@ -1,9 +1,0 @@
-body[suites='1'] pages #section7 {display:none;background-attachment: initial;
-  height:400px;
-  background-image:url(https://firebasestorage.googleapis.com/v0/b/doctor8-edbb2.appspot.com/o/pages%2Fsection7%2Fsection7banner1.jpg?alt=media&token=4fcf7e6a-4c03-4a4c-bf7b-9cc6e852e132);
-  background-position: center center;
-  background-repeat:no-repeat;background-size:cover;}
-
-body[suites='1'] pages #section7 h2 {text-decoration: underline;text-decoration-color: #e15930;float:left;color:#176b89;font-style:italic;font-size:20pt;}
-body[suites='1'] pages #section7 p {}
-body[suites='1'] pages #section7 div {width:300px;float:left;}

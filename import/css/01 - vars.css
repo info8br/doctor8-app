@@ -1,0 +1,16 @@
+pages {
+  
+  --color1:#1c6c8c;
+  --color2:#f95c3d;
+  --url:'/images/';
+  --banner:url(/images/banner.jpg);
+  --logo:url(/images/logo.png);
+  --logo2:url(/images/logo_branco.png);
+  --bg:url(/images/listras.png);
+  --imagebox1:url(/images/box1.png);
+  --imagebox2:url(/images/box2.png);
+  --imagebox3:url(/images/box3.png);
+  --parceiros:url(/images/parceiros.png);
+  --queroconhecer:url(/images/queroconhecer.png);
+  --fundotech:url(/images/fundotech.png);  
+}

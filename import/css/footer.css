@@ -1,0 +1,73 @@
+pages footer {
+
+  background-color:var(--color1);
+  width:100%;
+
+  float:left;
+  padding: 40px 0;
+
+
+}
+
+pages footer logo{
+  
+  background-image: var(--logo2);
+
+  height: 60px;
+  width: 200px;
+  float:left;
+  background-size:200px auto;
+  background-repeat:no-repeat;
+  margin:20px;
+}
+
+pages footer ul{
+
+  margin: 20px 20px 0 10px;
+  float:right;
+  list-style:none;
+  padding-left: 20px;
+  border-left: 2px solid #fff;
+
+  color:#fff;
+
+}
+
+pages footer ul li:first-child{
+
+  margin-bottom:10px;
+  font-weight:bold;
+
+}
+
+pages footer ul li a {
+
+  text-decoration:none;
+  color:#fff;
+
+}
+
+pages footer ul li a:hover {
+
+  text-decoration:underline;
+  
+}
+
+pages footer social{
+
+  margin: 20px 20px 0 20px;
+  float:right;
+
+  padding-left: 20px;
+
+
+
+}
+pages footer social a{
+  text-decoration:none;
+  color:#fff;
+  font-size:150%;
+  margin-right:10px;
+
+}
+

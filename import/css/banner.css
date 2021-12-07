@@ -1,0 +1,40 @@
+pages banner{
+
+  height:700px;
+  width:100%;
+  background-size:cover;
+  background-image:var(--banner);
+  background-position:center center;
+  float:left;
+
+}
+
+pages banner .sou_paciente{
+
+float:left;
+  padding:50px;
+  width:200px;
+
+}
+
+pages banner .sou_medico{
+  width:365px;
+  padding:50px;
+  float:right;
+
+}
+
+pages banner a{
+
+  color:#fff;
+  font-size:200%;
+
+}
+
+pages banner a.login{
+  font-size:100%;
+}
+pages banner .sou_medico a.login{
+  float:right;
+}
+

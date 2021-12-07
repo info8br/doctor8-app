@@ -1,22 +1,44 @@
 const express = require('express');
+const cors = require('cors');
+const app = express();
+
+console.log(__dirname);
+
+app.use(express.static("./export"));
+app.use(cors());
+  require('./scripts/csscompact');
+  require('./scripts/jscompact');
+  require('./scripts/html.js');
+
+// index.js
+
+
+
+app.get('/', (req, res) => {
+
+
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.sendFile('/home/runner/doctor8/export/index.html');
+
+});
+
+app.listen(3000, function () {
+  console.log(__dirname);
+}); 
+
+/* 
+const express = require('express');
+const path = require('path');
 
 const app = express();
 
-app.use(express.static("./export"));
+app.use(express.static(__dirname))
 
-  require('./csscompact');
-
-app.get('/compact', (req, res) => {
-
-  require('./csscompact');
-  //require('./jscompact');
-
-  res.send('Compactado!');
-
+app.get('/', (req, res) => {
+res.sendFile(path.join(__dirname + '/export/index.html'));
 });
 
-
-
-app.listen(8000, function () {
-  console.log("rodando");
+app.listen(3000, () => {
+  console.log('server started');
 });
+ */

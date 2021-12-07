@@ -1,0 +1,15 @@
+@media (max-width: 960px) { 
+
+  pages footer logo{margin:0 !important;width:100% !important;background-position:center center !important;}
+  pages #section1 p{height:auto !important;}
+
+  pages #section1 quadro{height:auto !important;width:100% !important;margin-bottom:100px !important;}
+  pages   footer ul{width:100%!important;margin:0 0 30px 0!important;}
+
+  pages footer li{text-align:center!important;}
+
+  pages h m {display:none !important;}
+
+  pages #section2 iframe{width:480px;height:270px;}
+
+}

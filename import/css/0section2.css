@@ -1,0 +1,21 @@
+pages #section2 iframe{
+
+  width:900px;
+  height:505px;
+  margin:40px auto;
+  background-color:#444;
+  display:block;
+
+}
+
+pages #section2 p{
+
+  text-align:center;
+  margin:0 auto;
+  display:block;
+  font-size:120%;
+  margin-top:40px;
+  color:var(--color1);
+  padding:0 60px;
+
+}
