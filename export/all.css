@@ -278,25 +278,38 @@ pages banner{
 
 }
 
-pages banner .sou_paciente{
+pages banner div{
 
-float:left;
-  padding:50px;
-  width:200px;
+    border-radius: 20px;
+  
+    box-shadow: 0px 1px 7px -2px #000;
+padding: 10px 30px;
+margin-top:60px;
+}
+
+pages banner .sou_paciente{
+margin-left:60px;
+
+    float: left;
+    background-color:var(--color1);
+
 
 }
 
 pages banner .sou_medico{
-  width:365px;
-  padding:50px;
-  float:right;
+margin-right:60px;
+
+    float: right;
+    background-color: var(--color2);
 
 }
 
 pages banner a{
 
-  color:#fff;
-  font-size:200%;
+  color: #fff;
+  font-size:150%;
+  display:block;
+  
 
 }
 
@@ -419,23 +432,29 @@ pages h bt1{
 
 }
 
+pages h bt1 icon{
+
+  font-size: 80%;
+
+}
+
 pages h m {float:right;margin:30px;}
 pages h m a {color:var(--color1);text-decoration:none;margin-right:20px;line-height:2.5;}
 pages h m a:hover {text-decoration:underline;}
 
 @media (max-width: 960px) { 
 
-  pages footer logo{margin:0 !important;width:100% !important;background-position:center center !important;}
-  pages #section1 p{height:auto !important;}
-
+  pages footer logo {margin:0 !important;width:100% !important;background-position:center center !important;}
+  pages #section1 p {height:auto !important;}
   pages #section1 quadro{height:auto !important;width:100% !important;margin-bottom:100px !important;}
-  pages   footer ul{width:100%!important;margin:0 0 30px 0!important;}
-
-  pages footer li{text-align:center!important;}
-
+  pages footer ul {width:100% !important;margin:0 0 30px 0 !important;}
+  pages footer li {text-align:center !important;}
   pages h m {display:none !important;}
-
-  pages #section2 iframe{width:480px;height:270px;}
+  pages #section2 iframe {width:480px;height:270px;}
+  pages banner container{position: absolute;bottom: 40px;width: 100%;}
+  pages banner {position:relative;height: calc(100% - 90px);}
+  pages banner div {margin:20px auto !important; float:none !important;width: calc(100% - 160px);}
+  pages banner div a {text-align:center !important;width:100% !important;}
 
 }
 

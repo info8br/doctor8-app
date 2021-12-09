@@ -1,8 +1,11 @@
-<body theme="small" suites="1" mobile="0">
+<body theme="small" suites="1" >
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-L7CL2PT71B"></script>
 <script>
+
+getMobile();
+
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -16,7 +19,7 @@
   <container>
     <logo></logo>
 
-    <bt1 onclick="document.body.setAttribute('openlogin','1');">Entrar / Cadastrar</bt1>
+    <bt1 onclick="document.body.setAttribute('openlogin','1');"><icon class='icon-user'></icon> Login</bt1>
      <m>
 
       <a href="/">HOME</a>

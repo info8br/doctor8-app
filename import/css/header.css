@@ -31,6 +31,12 @@ pages h bt1{
 
 }
 
+pages h bt1 icon{
+
+  font-size: 80%;
+
+}
+
 pages h m {float:right;margin:30px;}
 pages h m a {color:var(--color1);text-decoration:none;margin-right:20px;line-height:2.5;}
 pages h m a:hover {text-decoration:underline;}

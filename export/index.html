@@ -45,11 +45,14 @@
 
 </head>
 
-<body theme="small" suites="1" mobile="0">
+<body theme="small" suites="1" >
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-L7CL2PT71B"></script>
 <script>
+
+getMobile();
+
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -63,7 +66,7 @@
   <container>
     <logo></logo>
 
-    <bt1 onclick="document.body.setAttribute('openlogin','1');">Entrar / Cadastrar</bt1>
+    <bt1 onclick="document.body.setAttribute('openlogin','1');"><icon class='icon-user'></icon> Login</bt1>
      <m>
 
       <a href="/">HOME</a>
@@ -78,12 +81,12 @@
 <banner>
   <container>
     <div class='sou_paciente'>
-  <a href='/'>Sou Paciente</a>
-    <a href='/' class='login'>Login</a>
+  <a href='/'>Paciente</a>
+    <!--<a href='/' class='login'>Login</a>-->
   </div>
   <div class='sou_medico'>
-  <a href='/'>Sou Médico / Profissional</a>
-  <a href='/' class='login'>Login</a>
+  <a href='/'>Médico / Profissional</a>
+  <!--<a href='/' class='login'>Login</a>-->
   </div>
   </container>
 </banner>
