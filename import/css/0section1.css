@@ -35,11 +35,14 @@ pages #section1 quadro:nth-child(3)  figure{
 pages #section1 button{
 
   background-color:var(--color2);
-  border-radius:5px;
+  border-radius: 20px;
+
+  padding: 10px 30px;
+
   color:#fff;
-  width:calc(100% - 30px);
+  width:calc(100% - 70px);
   font-size:120%;
-  padding:10px 5px;
+
   display:block;
   margin:0 auto;
   cursor:pointer;

@@ -11,27 +11,26 @@ pages banner{
 
 pages banner div{
 
-    border-radius: 20px;
-  
-    box-shadow: 0px 1px 7px -2px #000;
-padding: 10px 30px;
-margin-top:60px;
+  border-radius: 20px;
+  box-shadow: 0px 1px 7px -2px #000;
+  padding: 10px 30px;
+  margin-top:60px;
+
 }
 
 pages banner .sou_paciente{
-margin-left:60px;
 
-    float: left;
-    background-color:var(--color1);
-
+  margin-left:60px;
+  float: left;
+  background-color:var(--color1);
 
 }
 
 pages banner .sou_medico{
-margin-right:60px;
 
-    float: right;
-    background-color: var(--color2);
+  margin-right:60px;
+  float: right;
+  background-color: var(--color2);
 
 }
 
