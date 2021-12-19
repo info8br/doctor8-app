@@ -153,9 +153,8 @@ pages figure{
 }
 
 
-pages #section1{
+pages #section1{}
 
-}
 pages #section1 quadro{
 
   width:315px;
@@ -168,7 +167,6 @@ pages #section1 quadro figure{
 
   width:100%;
   height:300px;
-
 
 }
 
@@ -184,22 +182,18 @@ pages #section1 quadro:nth-child(3)  figure{
   background-image:var(--imagebox3);
 }
 
-
-
 pages #section1 button{
 
   background-color:var(--color2);
   border-radius: 20px;
-
   padding: 10px 30px;
-
   color:#fff;
   width:calc(100% - 70px);
   font-size:120%;
-
   display:block;
   margin:0 auto;
   cursor:pointer;
+
 }
 
 pages #section1 icon{
@@ -207,14 +201,18 @@ pages #section1 icon{
   margin-right:5px;
   font-size:80%;
   color:lightgreen;
+
 }
+
 pages #section1 p{
-width: calc(90% - 20px);
-line-height: 1.5;
-    margin: 0 auto;
+
+  width: calc(90% - 20px);
+  line-height: 1.5;
+  margin: 0 auto;
   height:160px;
   color:var(--color1);
   margin-bottom:20px;
+
 }
 
 pages #section2 iframe{
@@ -250,7 +248,6 @@ pages #section3 p{
   color:var(--color1);
   padding:0 60px;
 
-
 }
 
 pages #section3 figure{
@@ -276,38 +273,36 @@ pages #section4 container{
 
 pages #section4 quadro{
 
-background-color:#eee;
-margin:0 50%;
-padding:10px;
+  background-color:#eee;
+  margin:0 50%;
+  padding:10px;
+  display: block;
+  width: 200px;
+  border-radius: 20px;
 
-    display: block;
-    width: 200px;
-    border-radius: 20px;
 }
 
 pages #section4 button{
 
   background-color:var(--color1);
   border-radius: 20px;
-
   padding: 5px 15px;
-
   color:#fff;
   width:100%;
   font-size:100%;
-
   display:block;
-
   cursor:pointer;
+  
 }
 
 pages #section4 p{
-    color:var(--color1);
-text-align:center;
-font-size: 120%;
-  margin: 20px;
-}
 
+  color:var(--color1);
+  text-align:center;
+  font-size: 120%;
+  margin: 20px;
+
+}
 
 pages banner{
 
