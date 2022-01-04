@@ -3,4 +3,4 @@
 localStorage.setItem("newusers", "1");
 
 // Store
-localStorage.setItem("url", "https://suite8.com.br");
+localStorage.setItem("url", "https://supabase.mehfius.repl.co");
