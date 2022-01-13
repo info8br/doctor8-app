@@ -501,7 +501,7 @@ background-image:var(--logo);
 }
 
 body[suites='1'][logged='1'][modules=''] {
-  background-image: url('/img/bg/doctor8.png');
+  background-image: url('/images/doctor8.png');
   background-position: center center;
   background-repeat: no-repeat;
 }
