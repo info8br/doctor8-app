@@ -9,7 +9,7 @@ app.use(cors());
   require('./scripts/csscompact');
   require('./scripts/jscompact');
   require('./scripts/html.js');
-
+  require('./scripts/htmlvercel.js');
 // index.js
 
 
@@ -17,8 +17,8 @@ app.use(cors());
 app.get('/', (req, res) => {
 
 
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.sendFile('/home/runner/doctor8/export/index.html');
+/*   res.setHeader('Access-Control-Allow-Origin', '*');
+  res.sendFile('/home/runner/doctor8/export/devxx.html'); */
 
 });
 

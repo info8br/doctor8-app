@@ -7,7 +7,7 @@ const getAllFiles = function(dirPath, arrayOfFiles) {
 
     files.push('meta.html');
     files.push('head.html');
-    files.push('head_replit.html');
+    files.push('head_vercel.html');
 
     files.push('header.html');
     files.push('banner.html');
@@ -50,7 +50,7 @@ const teste = result.forEach(element => {
 
 });
 
-fs.writeFile('./export/dev.html', text, function (err,data) {
+fs.writeFile('./export/index.html', text, function (err,data) {
 
   if (err) {
     return console.log(err);

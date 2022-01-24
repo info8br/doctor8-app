@@ -1,7 +1,7 @@
 pages {
   
   --color1:#1c6c8c;
-  --color2:#f95c3d;
+  --color2:#e25930;
   --url:'/images/';
   --banner:url(/images/banner.jpg);
   --logo:url(/images/logo.png);
@@ -14,4 +14,6 @@ pages {
   --queroconhecer:url(/images/queroconhecer.png);
   --fundotech:url(/images/fundotech.png); 
   --desenhomedico:url(/images/medico.png); 
+  --covimage:url(/images/cov.png); 
+
 }
