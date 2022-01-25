@@ -8,8 +8,8 @@ const getAllFiles = function(dirPath, arrayOfFiles) {
     files.push('meta.html');
     files.push('head.html');
     files.push('head_vercel.html');
-
     files.push('header.html');
+    files.push('ga.html');
     files.push('banner.html');
     files.push('consulteaqui.html');
     files.push('section.html');

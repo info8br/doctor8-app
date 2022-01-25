@@ -13,7 +13,7 @@ const getAllFiles = function(dirPath, arrayOfFiles) {
     files.push('banner.html');
     files.push('consulteaqui.html');
     files.push('section.html');
-    files.push('section_conhecadoctor.html');
+    //files.push('section_conhecadoctor.html');
     files.push('section_sejanossoparceiro.html');
     files.push('section_queroconhecer.html');
     files.push('footer.html');
