@@ -323,7 +323,7 @@ pages banner div{
   box-shadow: 0px 1px 7px -2px #000;
   padding: 10px 30px;
   margin-top:60px;
-
+display:none;
 }
 
 pages banner .sou_paciente{
@@ -347,7 +347,7 @@ pages banner a{
   color: #fff;
   font-size:150%;
   display:block;
-  
+
 
 }
 
