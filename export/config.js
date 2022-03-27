@@ -3,4 +3,4 @@
 localStorage.setItem("newusers", "1");
 
 // Store
-localStorage.setItem("url", "https://supabase.mehfius.repl.co");
+localStorage.setItem("url", "https://supabase.infooito.repl.co");
