@@ -1,4 +1,4 @@
-function getMobile(){
+function getMobile() {
 
   if (window.innerWidth <= 480) {
 

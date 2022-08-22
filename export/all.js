@@ -4,7 +4,7 @@ window.open("https://api.whatsapp.com/send?phone=5531971720053&text=Olá, tenho 
 
 }
 
-function getMobile(){
+function getMobile() {
 
   if (window.innerWidth <= 480) {
 
