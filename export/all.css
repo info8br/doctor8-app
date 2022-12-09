@@ -1,0 +1,582 @@
+pages {
+  --site:'https://doctor8.com.br';
+  --color1:#1c6c8c;
+  --color2:#e25930;
+  --url:'/images/';
+  --banner:url(/images/banner.jpg);
+  --logo:url('/images/logo.png');
+  --logo2:url('/images/logo_branco.png');
+  --bg:url(/images/listras.png);
+  --imagebox1:url(/images/box1.png);
+  --imagebox2:url(/images/box2.png);
+  --imagebox3:url(/images/box3.png);
+  --parceiros:url(/images/parceiros.png);
+  --queroconhecer:url(/images/queroconhecer.png);
+  --fundotech:url(/images/fundotech.png); 
+  --desenhomedico:url(/images/medico.png); 
+  --covimage:url(/images/cov.png); 
+
+}
+
+html,
+input,
+button,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+textarea,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+u,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: "Droid Sans", sans-serif
+}
+
+body {
+
+
+  /* background-color:#444; */
+}
+
+body[logged="1"] pages{
+display:none;
+}
+
+body[logged="0"] pages{
+
+  height: 100%;
+  max-width:1280px;
+  margin:0 auto;
+  background-image:var(--fundotech);
+
+}
+
+pages h2{
+
+  color:var(--color1);
+  border-bottom:3px solid var(--color2);
+  font-size:150%;
+  padding-bottom:20px;
+  width:fit-content;
+  margin:0 auto;
+  white-space: nowrap;
+
+}
+
+pages section{
+
+  padding: 40px 0;
+  float: left;
+  width:100%;
+  background-color:#fff;
+
+}
+
+pages figure{
+
+  background-repeat:no-repeat;
+  background-position: center center;
+
+}
+
+
+pages #section1{}
+
+pages #section1 quadro{
+
+  width:315px;
+  height:600px;
+  float:left;
+
+}
+
+pages #section1 quadro figure{
+
+  width:100%;
+  height:300px;
+
+}
+
+pages #section1 quadro:nth-child(1) figure{
+  background-image:var(--imagebox1);
+}
+
+pages #section1 quadro:nth-child(2)  figure{
+  background-image:var(--imagebox2);
+}
+
+pages #section1 quadro:nth-child(3)  figure{
+  background-image:var(--imagebox3);
+}
+
+pages #section1 button{
+
+  background-color:var(--color2);
+  border-radius: 20px;
+  padding: 10px 30px;
+  color:#fff;
+  width:calc(100% - 70px);
+  font-size:120%;
+  display:block;
+  margin:0 auto;
+  cursor:pointer;
+
+}
+
+pages #section1 icon{
+
+  margin-right:5px;
+  font-size:80%;
+  color:lightgreen;
+
+}
+
+pages #section1 p{
+
+  width: calc(90% - 20px);
+  line-height: 1.5;
+  margin: 0 auto;
+  height:160px;
+  color:var(--color1);
+  margin-bottom:20px;
+
+}
+
+pages #section2 video{
+
+  width:900px;
+  height:505px;
+  margin:40px auto;
+
+  display:block;
+
+}
+
+pages #section2 p{
+
+  text-align:center;
+  margin:0 auto;
+  display:block;
+  font-size:120%;
+  margin-top:40px;
+  color:var(--color1);
+  padding:0 60px;
+
+}
+
+
+pages #section3 p{
+
+  text-align:center;
+  margin:0 auto;
+  display:block;
+  font-size:120%;
+  margin-top:40px;
+  color:var(--color1);
+  padding:0 60px;
+
+}
+
+pages #section3 figure{
+
+  max-width:700px;
+  height:380px;
+  margin:20px auto;
+  background-image:var(--parceiros);
+  background-size: 100% auto;
+  
+}
+
+pages #section4 {padding-bottom:0;}
+
+pages #section4 container{
+
+  background-image:var(--desenhomedico);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 120px) center;
+  height: 225px;
+
+}
+
+pages #section4 quadro{
+
+  background-color:#eee;
+  margin:0 50%;
+  padding:10px;
+  display: block;
+  width: 200px;
+  border-radius: 20px;
+
+}
+
+pages #section4 button{
+
+  background-color:var(--color1);
+  border-radius: 20px;
+  padding: 5px 15px;
+  color:#fff;
+  width:100%;
+  font-size:100%;
+  display:block;
+  cursor:pointer;
+  
+}
+
+pages #section4 p{
+
+  color:var(--color1);
+  text-align:center;
+  font-size: 120%;
+  margin: 20px;
+
+}
+
+pages banner{
+
+  height:700px;
+  width:100%;
+  background-size:cover;
+  background-image:var(--banner);
+  background-position:center center;
+  float:left;
+
+}
+
+pages banner div{
+
+  border-radius: 20px;
+  box-shadow: 0px 1px 7px -2px #000;
+  padding: 10px 30px;
+  margin-top:60px;
+display:none;
+}
+
+pages banner .sou_paciente{
+
+  margin-left:60px;
+  float: left;
+  background-color:var(--color1);
+
+}
+
+pages banner .sou_medico{
+
+  margin-right:60px;
+  float: right;
+  background-color: var(--color2);
+
+}
+
+pages banner a{
+
+  color: #fff;
+  font-size:150%;
+  display:block;
+
+
+}
+
+pages banner a.login{
+  font-size:100%;
+}
+pages banner .sou_medico a.login{
+  float:right;
+}
+
+
+
+pages #consulteaqui{
+
+  border:0;
+  height:100px;
+
+
+}
+
+pages #consulteaqui p{
+
+  width: calc(100% - 120px);
+  font-size: 90%;
+  float:left;
+  margin-left:5px;
+  margin-top: 5px;
+}
+
+pages #consulteaqui figure{
+
+  background-image:var(--covimage);
+  height:100px;
+  width:100px;
+  background-size: cover;
+  float:left;
+  border-radius:50px;
+ 
+}
+
+pages #consulteaqui div{
+
+  display: flow-root;
+  width:400px;
+  border-radius:100px;
+  margin: 0 auto;
+  background-color:var(--color2);
+  color:#fff;
+cursor:pointer;
+}
+
+pages #consulteaqui div:hover{
+  box-shadow: 0 1px 5px #888;
+}
+pages #consulteaqui label{
+
+  margin-left:5px;
+  margin-top:20px;
+  float:left;
+
+
+}
+
+pages container {max-width:960px;margin:0 auto;display:block;}
+
+pages footer {
+
+  background-color:var(--color1);
+  width:100%;
+
+  float:left;
+  padding: 40px 0;
+
+
+}
+
+pages footer logo{
+  
+  background-image: var(--logo2);
+
+  height: 60px;
+  width: 200px;
+  float:left;
+  background-size:200px auto;
+  background-repeat:no-repeat;
+  margin:20px;
+}
+
+pages footer ul{
+
+  margin: 20px 20px 0 10px;
+  float:right;
+  list-style:none;
+  padding-left: 10px;
+  border-left: 2px solid #fff;
+
+  color:#fff;
+
+}
+
+pages footer ul li:first-child{
+
+  margin-bottom:10px;
+  font-weight:bold;
+
+}
+
+pages footer ul li a {
+
+  text-decoration:none;
+  color:#fff;
+  font-size:90%;
+  
+}
+
+pages footer ul li a:hover {
+
+  text-decoration:underline;
+  
+}
+
+pages footer social{
+
+  margin: 20px 20px 0 20px;
+  float:right;
+
+  padding-left: 20px;
+
+
+
+}
+pages footer social a{
+  text-decoration:none;
+  color:#fff;
+  font-size:150%;
+  margin-right:10px;
+
+}
+
+
+
+pages h {
+  
+  background-color:#fff;
+  width:100%;
+  float:left;
+
+}
+
+pages h logo{
+
+  background-image: var(--logo);
+  background-size: 100% auto;
+  height: 60px;
+  width: 160px;
+  float:left;
+  background-repeat:no-repeat;
+  margin:20px;
+  background-position:center center;
+    
+}
+
+pages h bt1{
+
+  margin: 30px 20px 0 0;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 3px;
+  background-color:var(--color1);
+  float: right;
+  color: #fff;
+
+}
+
+pages h bt1 icon{
+
+  font-size: 80%;
+
+}
+
+pages h m {float:right;margin:30px;}
+pages h m a {color:var(--color1);text-decoration:none;margin-right:20px;line-height:2.5;}
+pages h m a:hover {text-decoration:underline;}
+
+@media (max-width: 960px) { 
+
+  pages footer logo {margin:0 !important;width:100% !important;background-position:center center !important;}
+  pages #section1 p {height:auto !important;}
+  pages #section1 quadro{height:auto !important;width:100% !important;margin-bottom:100px !important;}
+  pages footer ul {width:100% !important;margin:0 0 30px 0 !important;}
+  pages footer li {text-align:center !important;}
+  pages h m {display:none !important;}
+  pages #section2 iframe {width:480px;height:270px;}
+  pages banner container{position: absolute;bottom: 40px;width: 100%;}
+  pages banner {position:relative;height: calc(100% - 90px);}
+  pages banner div {margin:20px auto !important; float:none !important;width: calc(100% - 160px);}
+  pages banner div a {text-align:center !important;width:100% !important;}
+
+}
+
+body[suites='1'] pages top logo {
+background-image:var(--logo);
+  background-size: 100% auto;
+}
+
+/* body[suites='1'][logged='1'][modules=''] {
+  background-image: url('/images/doctor8.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+ */
+
+
+body[suites='1'] pages content {
+  margin: 0 auto;
+  max-width: 920px;
+  display: block;
+  position: relative;
+}
+
+body[suites='1'] pages section {
+  padding: 40px 0;
+  background-color: #fff;
+  background-position: center;
+  float: left;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+

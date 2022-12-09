@@ -1,0 +1,233 @@
+ <html>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=480,user-scalable=no"/>
+  <meta name="theme-color" content=""/>
+  <meta name="msapplication-navbutton-color" content=""/>
+  <meta name="apple-mobile-web-app-status-bar-style" content=""/>
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta property="og:title"       content="Doctor 8"/>
+  <meta property="og:site_name"   content="Doctor8"/>
+  <meta property="og:url"         content="https://doctor8.com.br"/>
+  <meta property="og:description" content="Veja seus exames, receitas e imagens. Arquive o que precisar e compartilhe com seus médicos ou outros profissionais de saúde. Acesse seus dados a qualquer hora, em qualquer lugar."/>
+  <meta property="og:image"       content="https://doctor8.com.br/img/logo/icon.png"/>
+  <meta name="description"        content="Veja seus exames, receitas e imagens. Arquive o que precisar e compartilhe com seus médicos ou outros profissionais de saúde. Acesse seus dados a qualquer hora, em qualquer lugar."/>
+
+
+
+
+<head>
+    <title>Doctor8</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=480,user-scalable=no"/>
+  <meta name="theme-color" content=""/>
+  <meta name="msapplication-navbutton-color" content=""/>
+  <meta name="apple-mobile-web-app-status-bar-style" content=""/>
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta property="og:title"       content="Doctor 8"/>
+  <meta property="og:site_name"   content="Doctor8"/>
+  <meta property="og:url"         content="https://doctor8.com.br"/>
+  <meta property="og:description" content="Veja seus exames, receitas e imagens. Arquive o que precisar e compartilhe com seus médicos ou outros profissionais de saúde. Acesse seus dados a qualquer hora, em qualquer lugar."/>
+  <meta property="og:image"       content="https://doctor8.com.br/img/logo/icon.png"/>
+  <meta name="description"        content="Veja seus exames, receitas e imagens. Arquive o que precisar e compartilhe com seus médicos ou outros profissionais de saúde. Acesse seus dados a qualquer hora, em qualquer lugar."/>
+  
+  
+  <link rel="stylesheet" href="all.css">
+
+
+  <link rel="stylesheet" href="fonts/icomoon/style.css?v=41">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans" />
+
+
+
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="config.js"></script>
+  <script src="all.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/cep-promise/dist/cep-promise.min.js"></script>
+  <link rel="stylesheet" href="https://doctor8css.vercel.app/all.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.228/pdf.min.js"></script> 
+<script src="https://doctor8js.vercel.app/all.js"></script>
+</head>
+
+<body theme="small" suites="1" >
+
+
+<pages>
+
+<h>
+  <container>
+    <logo></logo>
+
+    <bt1 onclick="document.body.setAttribute('openlogin','1');"><icon class='icon-user'></icon> Login</bt1>
+     <m>
+
+      <a href="/">HOME</a>
+      <a href="/">PACIENTE</a>
+      <a href="/">MÉDICO / PROFISSIONAL DE SAÚDE</a>
+
+    </m>
+  </container>
+</h>
+
+
+<banner>
+  <container>
+    <div class='sou_paciente'>
+  <a href='https://hedgie.com.br/dev/doctor8/pacientes/'>Paciente</a>
+    <!--<a href='/' class='login'>Login</a>-->
+  </div>
+  <div class='sou_medico'>
+  <a href='https://hedgie.com.br/dev/doctor8/medico-profissional-da-saude/'>Médico / Profissional</a>
+  <!--<a href='/' class='login'>Login</a>-->
+  </div>
+  </container>
+</banner>
+
+
+<section id="consulteaqui">
+
+  <container>
+
+<div onclick='window.open("https://api.whatsapp.com/send?phone=5531971720053&text=Olá, preciso de uma consulta para Covid/Gripe.","_blank")'>
+
+  <figure></figure>
+  <label>COVID/GRIPE consulte aqui</label>
+  <p>Atendimento Voluntário e Atendimento Particular, <u>clique aqui</u></p>
+
+</div>
+    
+  </container>
+
+</section>
+
+
+
+<section id="section1">
+
+  <container>
+
+    <quadro>
+      <h2>TELEMEDICINA</h2>
+      <figure></figure>
+      <p>Agende sua consulta com a equipe do Doctor 8. Fale com um dos nossos atendentes e saiba mais.</p>
+      <button onclick='contact();'><icon class='icon-whatsapp'></icon>Agendar Consulta</button>
+    </quadro>
+
+    <quadro>
+      <h2>DOCTOR CONCIERGE</h2>
+      <figure></figure>
+          <p>O Doctor Concierge foi criado para te ajudar sempre que precisar.
+Obtenha descontos em serviços, exames e medicamentos.</p>
+      <button onclick='contact();'><icon class='icon-whatsapp'></icon>Saiba mais</button>
+    </quadro>
+
+    <quadro>
+      <h2>DOCTOR OPINION</h2>
+      <figure></figure>
+          <p>Precisa de uma segunda opinião sobre o seu diagnóstico ou tratamento? O Doctor Opinion com seu serviço exclusivo e personalizado, possui especialistas e peritos capacitados a lhe ajudar.</p>
+      <button onclick='contact();'><icon class='icon-whatsapp'></icon>Saiba mais</button>
+    </quadro>
+
+  </container>
+
+</section>
+
+
+
+
+
+
+
+
+<section id="section2">
+
+  <container>
+
+    <h2>CONHEÇA O DOCTOR</h2>
+<!--     <iframe loading="lazy" src="https://www.youtube.com/embed/L5QBnMNL5B4?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    
+<video loop="true" autoplay="autoplay"  muted >
+<source src="https://doctor8.com.br/videos/intro.mp4" type="video/mp4">
+
+Your browser does not support the video tag.
+</video>
+    
+    <p>Acesse o vídeo acima e veja como é simples e fácil anexar, arquivar e 
+    compartilhar dados com seu médico e vice-versa</p>
+    
+  </container>
+
+</section>
+
+
+
+<section id="section3">
+
+  <container>
+<h2>SEJA NOSSO PARCEIRO</h2>
+<figure></figure>
+    <p>O Doctor8 possui uma rede de parceiros credenciados em todas as áreas da saúde capazes de oferecerem ao paciente um atendimento diferenciado a um custo acessível. Se você é um profissional de saúde ou empresário na área, também pode fazer parte do nosso catálogo de associados.</p>
+
+  </container>
+</section>
+
+<section id="section4">
+  <container>
+
+     
+<quadro>
+
+  <p>Quer saber mais?<br>
+  Fale com um de nossos<br>
+  consultores</p>
+  <button onclick='contact();'>Quero conhecer!</button>
+  
+</quadro>
+  </container>
+</section>
+
+<footer>
+
+<container>
+  <logo></logo>
+  <social>
+    <a href="https://www.facebook.com/Doctor8.Oficial" target='_blank'><icon class='icon-facebook2'></icon></a>
+    <a href="https://www.instagram.com/doctor_8_med/" target='_blank'><icon class='icon-instagram'></icon></a>
+  </social>
+  <nav>
+    <ul>
+      <li>TERMOS</li>
+      <li><a href='https://docs.google.com/document/d/1i_-hQXcuPfCH48fUNvC-GN60zZas8eqSjrzoHPZtnPc' target='_blank'>Política de Privacidade</a></li>
+      <li><a href='https://docs.google.com/document/d/1EsgYKoX4mG40kd0oXfwbuID1t9Oi1oFvEGlxfZ9SAsw' target='_blank'>Acordo do Usuário</a></li>
+      <li><a href='https://docs.google.com/document/d/1i_-hQXcuPfCH48fUNvC-GN60zZas8eqSjrzoHPZtnPc' target='_blank'>Política de cookies</a></li>
+    </ul>
+    <ul>
+      <li>PACIENTES</li>
+      <li><a href='/'>Planos</a></li>
+      <li><a href='/'>Doctor Opinion</a></li>
+      <li><a href='/'>Doctor Concierge</a></li>
+    </ul>
+
+    <ul>
+      <li>MÉDICO/PROFISSIONAL</li>
+      <li><a href='/'>Planos</a></li>
+      <li><a href='/'>Doctor Opinion</a></li>
+      <li><a href='/'>Doctor Concierge</a></li>
+    </ul>
+
+
+
+  </nav>
+  
+
+
+</container>
+
+</footer>
+</pages>
+</body>
+</html>
+

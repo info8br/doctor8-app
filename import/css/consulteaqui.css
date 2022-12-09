@@ -1,0 +1,50 @@
+pages #consulteaqui{
+
+  border:0;
+  height:100px;
+
+
+}
+
+pages #consulteaqui p{
+
+  width: calc(100% - 120px);
+  font-size: 90%;
+  float:left;
+  margin-left:5px;
+  margin-top: 5px;
+}
+
+pages #consulteaqui figure{
+
+  background-image:var(--covimage);
+  height:100px;
+  width:100px;
+  background-size: cover;
+  float:left;
+  border-radius:50px;
+ 
+}
+
+pages #consulteaqui div{
+
+  display: flow-root;
+  width:400px;
+  border-radius:100px;
+  margin: 0 auto;
+  background-color:var(--color2);
+  color:#fff;
+cursor:pointer;
+}
+
+pages #consulteaqui div:hover{
+  box-shadow: 0 1px 5px #888;
+}
+pages #consulteaqui label{
+
+  margin-left:5px;
+  margin-top:20px;
+  float:left;
+
+
+}

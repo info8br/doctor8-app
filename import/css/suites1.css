@@ -1,0 +1,30 @@
+body[suites='1'] pages top logo {
+background-image:var(--logo);
+  background-size: 100% auto;
+}
+
+/* body[suites='1'][logged='1'][modules=''] {
+  background-image: url('/images/doctor8.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+ */
+
+
+body[suites='1'] pages content {
+  margin: 0 auto;
+  max-width: 920px;
+  display: block;
+  position: relative;
+}
+
+body[suites='1'] pages section {
+  padding: 40px 0;
+  background-color: #fff;
+  background-position: center;
+  float: left;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+

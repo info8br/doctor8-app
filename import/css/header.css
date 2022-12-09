@@ -1,0 +1,42 @@
+pages h {
+  
+  background-color:#fff;
+  width:100%;
+  float:left;
+
+}
+
+pages h logo{
+
+  background-image: var(--logo);
+  background-size: 100% auto;
+  height: 60px;
+  width: 160px;
+  float:left;
+  background-repeat:no-repeat;
+  margin:20px;
+  background-position:center center;
+    
+}
+
+pages h bt1{
+
+  margin: 30px 20px 0 0;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 3px;
+  background-color:var(--color1);
+  float: right;
+  color: #fff;
+
+}
+
+pages h bt1 icon{
+
+  font-size: 80%;
+
+}
+
+pages h m {float:right;margin:30px;}
+pages h m a {color:var(--color1);text-decoration:none;margin-right:20px;line-height:2.5;}
+pages h m a:hover {text-decoration:underline;}
