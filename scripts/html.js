@@ -7,14 +7,8 @@ const getAllFiles = function(dirPath, arrayOfFiles) {
 
   files.push('meta.html');
   files.push('head_replit.html');
-
   files.push('header.html');
-  /*   files.push('banner.html');
-    files.push('consulteaqui.html');
-    files.push('section.html');
-    //files.push('section_conhecadoctor.html');
-    files.push('section_sejanossoparceiro.html');
-    files.push('section_queroconhecer.html'); */
+  //files.push('ga.html');
   files.push('footer.html');
 
   arrayOfFiles = arrayOfFiles || []
