@@ -5,7 +5,7 @@ const getAllFiles = function(dirPath, arrayOfFiles) {
 
   files = [];
 
-  files.push('meta.html');
+
   files.push('head_vercel.html');
   files.push('header.html');
   //files.push('ga.html');
