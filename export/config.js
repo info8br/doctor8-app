@@ -22,7 +22,7 @@ const subdomain = window.location.hostname.split(".")[0]
 
 if (subdomain == 'dark') {
 
-  document.body.setAttribute('darkmode', '');
+
 
   script = document.createElement("script");
   script.src = "https://vflhuqqzjmgkdhjgxzni.supabase.co/storage/v1/object/public/js/all_dev.js";
