@@ -18,6 +18,8 @@ localStorage.setItem("supabasekey", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3
 
 localStorage.setItem("supabaseurl", "https://vflhuqqzjmgkdhjgxzni.supabase.co/");
 
+const subdomain = window.location.hostname.split(".")[0]
+
 if (subdomain == 'dark') {
 
   document.body.setAttribute('darkmode', '');
