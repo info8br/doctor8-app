@@ -23,4 +23,9 @@ if (subdomain == 'dark') {
   script.src = "https://vflhuqqzjmgkdhjgxzni.supabase.co/storage/v1/object/public/js/all_dev.js";
   document.head.appendChild(script);
 
-} 
+} else {
+
+  script = document.createElement("script");
+  script.src = "https://doctor8js.vercel.app/all.js";
+  document.head.appendChild(script);
+}
