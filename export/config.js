@@ -22,15 +22,24 @@ const subdomain = window.location.hostname.split(".")[0]
 
 if (subdomain == 'dark') {
 
-
-
   script = document.createElement("script");
   script.src = "https://vflhuqqzjmgkdhjgxzni.supabase.co/storage/v1/object/public/js/all_dev.js";
   document.head.appendChild(script);
+
+  const link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.href = 'https://vflhuqqzjmgkdhjgxzni.supabase.co/storage/v1/object/public/css/all_dev.css';
+  document.head.appendChild(link);
 
 } else {
 
   script = document.createElement("script");
   script.src = "https://doctor8js.vercel.app/all.js";
   document.head.appendChild(script);
+
+  const link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.href = 'https://doctor8css.vercel.app/all.css';
+  document.head.appendChild(link);
+
 }
