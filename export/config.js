@@ -32,7 +32,7 @@ if (subdomain == 'dark') {
   document.head.appendChild(link);
 
 
-  let link = document.createElement('link');
+  link = document.createElement('link');
   link.rel = 'stylesheet';
   link.href = 'https://vflhuqqzjmgkdhjgxzni.supabase.co/storage/v1/object/public/css/categorycolor.css';
   document.head.appendChild(link);
@@ -49,7 +49,7 @@ if (subdomain == 'dark') {
   link.href = 'https://doctor8css.vercel.app/all.css';
   document.head.appendChild(link);
 
-  let link = document.createElement('link');
+  link = document.createElement('link');
   link.rel = 'stylesheet';
   link.href = 'https://vflhuqqzjmgkdhjgxzni.supabase.co/storage/v1/object/public/css/categorycolor.css';
   document.head.appendChild(link);
