@@ -26,8 +26,8 @@ if (subdomain == 'dark') {
   script.src = "https://vflhuqqzjmgkdhjgxzni.supabase.co/storage/v1/object/public/js/all_dev.js";
   document.head.appendChild(script);
 
-
-  let link.rel = 'stylesheet';
+  let link = document.createElement('link');
+  link.rel = 'stylesheet';
   link.href = 'https://vflhuqqzjmgkdhjgxzni.supabase.co/storage/v1/object/public/css/all_dev.css';
   document.head.appendChild(link);
 
