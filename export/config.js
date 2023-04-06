@@ -40,14 +40,17 @@ if (subdomain == 'dark') {
 
 } else {
 
-  script = document.createElement("script");
-  script.src = "https://doctor8js.vercel.app/all.js";
+script = document.createElement("script");
+  //script.src = "https://doctor8js.vercel.app/all.js";
+  script.src = "https://vflhuqqzjmgkdhjgxzni.supabase.co/storage/v1/object/public/js/all.js";
   document.head.appendChild(script);
 
   let link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.href = 'https://doctor8css.vercel.app/all.css';
+  //link.href = 'https://doctor8css.vercel.app/all.css';
+  link.href = 'https://vflhuqqzjmgkdhjgxzni.supabase.co/storage/v1/object/public/css/all.css';  
   document.head.appendChild(link);
+
 
   link = document.createElement('link');
   link.rel = 'stylesheet';
