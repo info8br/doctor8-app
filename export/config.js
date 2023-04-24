@@ -28,7 +28,7 @@ if (subdomain == 'dark') {
 
   let link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.href = 'https://vflhuqqzjmgkdhjgxzni.supabase.co/storage/v1/object/public/css/all_dev.css?random='+Math.random();
+  link.href = 'https://vflhuqqzjmgkdhjgxzni.supabase.co/storage/v1/object/public/css/all_dev.css';
   document.head.appendChild(link);
 
 
